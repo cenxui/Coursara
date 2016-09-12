@@ -10,8 +10,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * this class is for Coursara ada lesson week one 
+ * compute number of inversions.
+ * @author xenxui
+ *
+ */
 
-public class ComputeNumberOfInversions {
+public class WeekOne {
 
 	public static void main(String[] args) {
 		int[] arr = getArray("c:\\text\\array.txt");
