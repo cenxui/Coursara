@@ -20,7 +20,7 @@ import java.nio.charset.StandardCharsets;
 public class WeekOne {
 
 	public static void main(String[] args) {
-		int[] arr = getArray("c:\\text\\array.txt");
+		int[] arr = getArray("/home/cenxui/IdeaProjects/Coursara/Coursara/src/IntegerArray.txt");
 		printArrays(arr);
 		System.out.println(sort(arr));
 		printArrays(arr);
